@@ -10,7 +10,12 @@ const Content = () => {
         <div className={styles.left_side}>
              <div className={styles.searching}>
                 <p>Showing 1-12 Of 15 Results</p>
-                <p>Default Sorting</p>
+                <form>
+                <select >
+                  <option value=""><p>Default Sorting</p></option>
+                  <option value=""><p>Custom Sorting</p></option>
+                </select>
+              </form>
             </div>
             <ul>
                 <li><Card title="Vel vestibulum elit tuvel euqen." img="../../src/assets/card_img/card1.png" price="$25"/></li>

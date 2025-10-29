@@ -97,7 +97,9 @@ const Footer = () => {
                 </li>
                 <li>
                   <img src={map} alt="" />
-                  <p>639 Jade Valley, Washington Dc </p>
+                  <p>639 Jade Valley,
+                    <br />
+                     Washington Dc </p>
                 </li>
               </ul>
         </div>

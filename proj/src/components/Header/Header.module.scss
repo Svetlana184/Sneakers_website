@@ -43,6 +43,9 @@ header{
             align-items: center;
             list-style: none;
             font-weight: 700;
+            li:hover{
+                color: rgba(242, 39, 53, 1);
+            }
         }
     }
 }
