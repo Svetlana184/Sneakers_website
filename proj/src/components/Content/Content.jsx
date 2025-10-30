@@ -6,6 +6,7 @@ import arrow from '../../assets/footer_icons/arrow.png'
 
 
 const Content = () => {
+  
   return (
     <section className={styles.content_section}>
         <div className={styles.left_side}>
@@ -31,6 +32,7 @@ const Content = () => {
                 <li><Card title="Vel vestibulum elit tuvel euqen." img="../../src/assets/card_img/card10.png" price="$25"/></li>
                 <li><Card title="Vel vestibulum elit tuvel euqen." img="../../src/assets/card_img/card11.png" price="$25"/></li>
                 <li><Card title="Vel vestibulum elit tuvel euqen." img="../../src/assets/card_img/card12.png" price="$25"/></li>
+                
             </ul>
             <div className={styles.pages}>
               <div className={styles.pages_btns}>
