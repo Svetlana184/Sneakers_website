@@ -136,8 +136,12 @@
             height: 40px;
             background-color: rgba(242, 39, 53, 1);
             border: none;
-            color: white;
-            font-size: 17px;
+           
+            a{
+                 color: white;
+                font-size: 17px;
+                text-decoration: none;
+            }
         }
     }
 }
