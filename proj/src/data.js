@@ -76,73 +76,73 @@ export const cards = [
 
 export const little_cards = [
      {
-        img:"../../src/assets/card_img/card1.png",
+        img:"../../src/assets/card_img/min1.png",
         title:"Vel vestibulum elit tuvel euqen.",
         price:"$25",
         index:0,
         rating:5
     },
     {
-        img:"../../src/assets/card_img/card2.png",
+        img:"../../src/assets/card_img/min2.png",
         title:"Vel vestibulum elit tuvel euqen.",
         price:"$25",
         index:1,
         rating:5
     },
     {
-        img:"../../src/assets/card_img/card3.png",
+        img:"../../src/assets/card_img/min3.png",
         title:"Vel vestibulum elit tuvel euqen.",
         price:"$25",
         index:2,
-        rating:5
+        rating:4
     },
     {
-        img:"../../src/assets/card_img/card4.png",
+        img:"../../src/assets/card_img/min4.png",
         title:"Vel vestibulum elit tuvel euqen.",
         price:"$25",
         index:3,
-        rating:5
+        rating:4
     },
     {
-        img:"../../src/assets/card_img/card5.png",
+        img:"../../src/assets/card_img/min5.png",
         title:"Vel vestibulum elit tuvel euqen.",
         price:"$25",
         index:4,
-        rating:5
+        rating:4
     }
 ]
 
 export const little_cards_2 = [
     {
-        img:"../../src/assets/card_img/card6.png",
+        img:"../../src/assets/card_img/min6.png",
         title:"Vel vestibulum elit tuvel euqen.",
         price:"$25",
         index:5,
         rating:5
     },
     {
-        img:"../../src/assets/card_img/card7.png",
+        img:"../../src/assets/card_img/min7.png",
         title:"Vel vestibulum elit tuvel euqen.",
         price:"$25",
         index:6,
         rating:5
     },
     {
-        img:"../../src/assets/card_img/card8.png",
+        img:"../../src/assets/card_img/min8.png",
         title:"Vel vestibulum elit tuvel euqen.",
         price:"$25",
         index:7,
         rating:5
     },
     {
-        img:"../../src/assets/card_img/card9.png",
+        img:"../../src/assets/card_img/min9.png",
         title:"Vel vestibulum elit tuvel euqen.",
         price:"$25",
         index:8,
         rating:5
     },
     {
-        img:"../../src/assets/card_img/card10.png",
+        img:"../../src/assets/card_img/min10.png",
         title:"Vel vestibulum elit tuvel euqen.",
         price:"$25",
         index:9,

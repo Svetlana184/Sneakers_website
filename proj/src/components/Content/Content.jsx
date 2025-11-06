@@ -1,4 +1,4 @@
-
+import {Link} from 'react-router-dom';
 import styles from './Content.module.scss'
 import SideBar from './SideBar'
 import {cards} from "../../data.js"
@@ -15,9 +15,12 @@ const Card = ({img, title, price, index}) => {
         <div className={styles.card_text}>
             <h6>{title}</h6>
             <p>{price}</p>
-            <button
-
-            >Add to cart</button>
+            
+            <button>
+              <Link to={`${index}`}> 
+                Add to cart
+              </Link>
+           </button>
         </div>
     </div>
   )
@@ -37,8 +40,8 @@ const Content = () => {
                 <p>Showing 1-12 Of 15 Results</p>
                 <form>
                 <select >
-                  <option value=""><p>Default Sorting</p></option>
-                  <option value=""><p>Custom Sorting</p></option>
+                  <option value="">Default Sorting</option>
+                  <option value="">Custom Sorting</option>
                 </select>
               </form>
             </div>

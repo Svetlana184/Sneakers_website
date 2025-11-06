@@ -17,7 +17,7 @@ function App() {
               <Footer/>
           </>
         }/>
-        <Route path='/product/:id' element={
+        <Route path=':id' element={
           <>
               <Header/>
               <SingleCard/>
