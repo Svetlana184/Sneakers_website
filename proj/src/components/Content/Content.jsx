@@ -8,6 +8,7 @@ import arrow from '../../assets/footer_icons/arrow.png'
 const Card = ({img, title, price, index}) => {
   return (
     <div className={styles.card}>
+      
         <div className={styles.card_img}>
             <div>Sale</div>
             <img src={img} alt="" />

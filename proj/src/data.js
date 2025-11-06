@@ -9,13 +9,13 @@ export const cards = [
     {
         img:"../../src/assets/card_img/card2.png",
         title:"Vel vestibulum elit tuvel euqen.",
-        price:"$25",
+        price:"$20",
         index:1
     },
     {
         img:"../../src/assets/card_img/card3.png",
         title:"Vel vestibulum elit tuvel euqen.",
-        price:"$25",
+        price:"$15",
         index:2
     },
     {
@@ -85,21 +85,21 @@ export const little_cards = [
     {
         img:"../../src/assets/card_img/min2.png",
         title:"Vel vestibulum elit tuvel euqen.",
-        price:"$25",
+        price:"$20",
         index:1,
         rating:5
     },
     {
         img:"../../src/assets/card_img/min3.png",
         title:"Vel vestibulum elit tuvel euqen.",
-        price:"$25",
+        price:"$15",
         index:2,
         rating:4
     },
     {
         img:"../../src/assets/card_img/min4.png",
         title:"Vel vestibulum elit tuvel euqen.",
-        price:"$25",
+        price:"$10",
         index:3,
         rating:4
     },
@@ -123,29 +123,29 @@ export const little_cards_2 = [
     {
         img:"../../src/assets/card_img/min7.png",
         title:"Vel vestibulum elit tuvel euqen.",
-        price:"$25",
+        price:"$15",
         index:6,
-        rating:5
+        rating:4
     },
     {
         img:"../../src/assets/card_img/min8.png",
         title:"Vel vestibulum elit tuvel euqen.",
-        price:"$25",
+        price:"$20",
         index:7,
-        rating:5
+        rating:3
     },
     {
         img:"../../src/assets/card_img/min9.png",
         title:"Vel vestibulum elit tuvel euqen.",
         price:"$25",
         index:8,
-        rating:5
+        rating:4
     },
     {
         img:"../../src/assets/card_img/min10.png",
         title:"Vel vestibulum elit tuvel euqen.",
-        price:"$25",
+        price:"$10",
         index:9,
-        rating:5
+        rating:4
     }
 ]
