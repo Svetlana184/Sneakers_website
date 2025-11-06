@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Content.module.scss'
 
-const Card = ({img, title, price}) => {
+const Card = ({img, title, price, index=0}) => {
   return (
     <div className={styles.card}>
         <div className={styles.card_img}>
@@ -11,7 +11,9 @@ const Card = ({img, title, price}) => {
         <div className={styles.card_text}>
             <h6>{title}</h6>
             <p>{price}</p>
-            <button>Add to cart</button>
+            <button
+
+            >Add to cart</button>
         </div>
     </div>
   )

@@ -1,12 +1,35 @@
-import Card from './Card'
+
 import styles from './Content.module.scss'
 import SideBar from './SideBar'
 import {cards} from "../../data.js"
 import arrow from '../../assets/footer_icons/arrow.png'
 
 
+const Card = ({img, title, price, index}) => {
+  return (
+    <div className={styles.card}>
+        <div className={styles.card_img}>
+            <div>Sale</div>
+            <img src={img} alt="" />
+        </div>
+        <div className={styles.card_text}>
+            <h6>{title}</h6>
+            <p>{price}</p>
+            <button
+
+            >Add to cart</button>
+        </div>
+    </div>
+  )
+}
+
 const Content = () => {
   
+  const sneakers_cards = cards.map((item)=>
+  <li>
+    <Card title={item.title} img={item.img} price={item.price} index={item.index}/>
+  </li>)
+
   return (
     <section className={styles.content_section}>
         <div className={styles.left_side}>
@@ -20,19 +43,7 @@ const Content = () => {
               </form>
             </div>
             <ul>
-                <li><Card title="Vel vestibulum elit tuvel euqen." img="../../src/assets/card_img/card1.png" price="$25"/></li>
-                <li><Card title="Vel vestibulum elit tuvel euqen." img="../../src/assets/card_img/card2.png" price="$25"/></li>
-                <li><Card title="Vel vestibulum elit tuvel euqen." img="../../src/assets/card_img/card3.png" price="$25"/></li>
-                <li><Card title="Vel vestibulum elit tuvel euqen." img="../../src/assets/card_img/card4.png" price="$25"/></li>
-                <li><Card title="Vel vestibulum elit tuvel euqen." img="../../src/assets/card_img/card5.png" price="$25"/></li>
-                <li><Card title="Vel vestibulum elit tuvel euqen." img="../../src/assets/card_img/card6.png" price="$25"/></li>
-                <li><Card title="Vel vestibulum elit tuvel euqen." img="../../src/assets/card_img/card7.png" price="$25"/></li>
-                <li><Card title="Vel vestibulum elit tuvel euqen." img="../../src/assets/card_img/card8.png" price="$25"/></li>
-                <li><Card title="Vel vestibulum elit tuvel euqen." img="../../src/assets/card_img/card9.png" price="$25"/></li>
-                <li><Card title="Vel vestibulum elit tuvel euqen." img="../../src/assets/card_img/card10.png" price="$25"/></li>
-                <li><Card title="Vel vestibulum elit tuvel euqen." img="../../src/assets/card_img/card11.png" price="$25"/></li>
-                <li><Card title="Vel vestibulum elit tuvel euqen." img="../../src/assets/card_img/card12.png" price="$25"/></li>
-                
+               {sneakers_cards}
             </ul>
             <div className={styles.pages}>
               <div className={styles.pages_btns}>
@@ -50,5 +61,7 @@ const Content = () => {
     </section>
   )
 }
+
+
 
 export default Content
